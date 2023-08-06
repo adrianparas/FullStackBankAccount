@@ -30,7 +30,7 @@ public class AccountController {
         return accountService.createAccount(account);
     }
 
-    @GetMapping("/accounts")
+    @GetMapping("/")
     public List<Account> getAllAccounts() {
         return accountService.getAllAccounts();
     }
@@ -51,11 +51,5 @@ public class AccountController {
         throws Exception {
         return accountService.withdrawAmount(id, amount);
     }
-
-    // @GetMapping("/interestRate/{id}/")
-    // public ResponseEntity<Double> getInterestRate(@PathVariable(value="id")Long id, @RequestParam("years") int years) throws Exception {
-    //     double interestRate = accountService.getInterestRate(id, years);
-    //     return ResponseEntity.ok(interestRate);
-    // }
 
 }
