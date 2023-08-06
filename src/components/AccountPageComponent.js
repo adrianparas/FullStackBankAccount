@@ -18,7 +18,7 @@ const AccountPageComponent = () => {
     }, [id]);
 
     const backToAccountList = () => {
-        navigate("/accounts")
+        navigate("/")
     }
 
     const handleDeposit = () => {
@@ -62,8 +62,8 @@ const AccountPageComponent = () => {
                         Withdraw
                     </button>
                     &nbsp;
-                    <button className="btn btn-primary" onClick={handleInterestRateCalc} style={{width: '15%', backgroundColor:'blue'}}>
-                        Calculate Interest Rate
+                    <button className="btn btn-primary" onClick={handleInterestRateCalc} style={{width: '20%', backgroundColor:'blue'}}>
+                        Calculate Interest
                     </button>
 
                     <br></br>

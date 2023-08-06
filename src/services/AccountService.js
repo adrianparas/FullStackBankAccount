@@ -9,7 +9,7 @@ class AccountService {
 
     getAccounts()
     {
-        return axios.get(ACCOUNT_API_BASE_URL + '/' + "accounts")
+        return axios.get(ACCOUNT_API_BASE_URL + '/')
     }
     
     getAccountById(accountId)

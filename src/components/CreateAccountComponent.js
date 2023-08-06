@@ -30,7 +30,7 @@ const CreateAccountComponent = () => {
         if (id === "_add") {
             AccountService.createAccount(account)
                 .then(() => {
-                    navigate("/accounts");
+                    navigate("/");
                 })
                 .catch((error) => {
           console.log(error);
@@ -48,7 +48,7 @@ const CreateAccountComponent = () => {
 
     const handleCancel = () => {
         console.log("Cancel button called")
-        navigate("/accounts");
+        navigate("/");
     }
 
     return (
@@ -63,6 +63,7 @@ const CreateAccountComponent = () => {
                         className="form-control"
                         value={account.accountName}
                         onChange={handleChange}
+                        required
                     />
                 </div>
                 <div className="form-group">
@@ -72,7 +73,10 @@ const CreateAccountComponent = () => {
                         name="accountNumber"
                         className="form-control"
                         value={account.accountNumber}
+                        pattern="[0-9]{10}"
+                        title="Please enter exactly 10 digits (0-9)"
                         onChange={handleChange}
+                        required
                     />
                 </div>
                 <div className="form-group">
@@ -83,6 +87,7 @@ const CreateAccountComponent = () => {
                         className="form-control"
                         value={account.balance}
                         onChange={handleChange}
+                        required
                     />
                 </div> 
                 <br></br>

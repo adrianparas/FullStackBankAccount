@@ -13,7 +13,7 @@ function App() {
       <Router>
         <div className='container'>
           <Routes>
-            <Route path='/accounts' element={<ListAccountComponent />} />
+            <Route path='/' element={<ListAccountComponent />} />
             <Route path='/add-account/:id' element={<CreateAccountComponent />} />
             <Route path='/access-account/:id' element={<AccountPageComponent />} />
             <Route path='/deposit/:id' element={<DepositComponent />} />
