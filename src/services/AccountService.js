@@ -7,6 +7,11 @@ class AccountService {
         return axios.post(ACCOUNT_API_BASE_URL + '/' + "accountCreated", account);
     }
 
+    deleteAccount(accountId)
+    {
+        return axios.delete(ACCOUNT_API_BASE_URL + '/' + "deleteAccount" + '/' + accountId)
+    }
+
     getAccounts()
     {
         return axios.get(ACCOUNT_API_BASE_URL + '/')

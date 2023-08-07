@@ -21,8 +21,7 @@ function App() {
             <Route path='/interestRate/:id' element={<CalculateInterestComponent />} />
             <Route path='/display-interest/:id/:interest/:period' element={<DisplatInterestComponent />} />
           </Routes>
-        </div>
-        
+        </div>  
       </Router>
     </div>
   );

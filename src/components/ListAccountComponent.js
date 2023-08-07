@@ -16,6 +16,12 @@ const ListAccountComponent = () => {
         navigate(`/access-account/${id}`);
     };
 
+    const deleteAccount = (id) => {
+        AccountService.deleteAccount(id).then(() => {
+            setAccounts(accounts.filter((account) => account.id !== id))
+        })
+    }
+
     const addAccount = () => {
         navigate("/add-account/_add");
     };
@@ -50,6 +56,10 @@ const ListAccountComponent = () => {
                                     <td>
                                         <button onClick={() => accessAccount(account.id)} className="btn btn-info">
                                             Manage Account
+                                        </button>
+                                        &nbsp;
+                                        <button onClick={() => deleteAccount(account.id)} className="btn btn-danger">
+                                            Close Account
                                         </button>
                                     </td>
                                 </tr>

@@ -1,6 +1,8 @@
 package com.snva.bankaccount.service;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -49,12 +51,12 @@ public class AccountService {
         return ResponseEntity.ok(updatedAccount);  
     }
 
-    // public double getInterestRate(Long id, int years) throws Exception {
-    //     Account account = accountRepository.findById(id).orElseThrow(()->new Exception("Account not found for this id: "+id));
-    //     double interestRate = account.calculateInterest(years);
-    //     System.out.println(interestRate);
-
-    //     return interestRate;
-
-    // }
+    public Map<String, Boolean> deleteAccount(@PathVariable(value="id")Long accountId) 
+        throws Exception {
+            Account account = accountRepository.findById(accountId).orElseThrow(()->new Exception("Account not found for this id: "+ accountId));
+            accountRepository.delete(account);
+            Map<String, Boolean> response = new HashMap<>();
+            response.put("deleted", true);
+            return response;
+    }
 }
