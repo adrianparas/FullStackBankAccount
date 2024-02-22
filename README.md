@@ -41,7 +41,7 @@ Axios is used to handle HTTP requests from the browser, fetching data from RESTf
 * cd into your bankaccount_frontend folder
 * Run the command: npm start
 
-### Application Overview
+## Application Overview
 
 Manager
 
