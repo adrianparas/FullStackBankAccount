@@ -45,6 +45,7 @@ Manager
 
 <img width="920" alt="image" src="https://github.com/adrianparas/FullStackBankAccount/assets/97486758/6674d73b-b88d-4523-b6c4-693b8b379ce0">
 
+### Application Overview
 
 Creating a new Account
 
