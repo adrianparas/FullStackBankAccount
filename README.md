@@ -15,11 +15,15 @@ Axios is used to handle HTTP requests from the browser, fetching data from RESTf
 ### Dependencies
 
 * Maven 
-* MySQL
+* MySQL Connector
 * Lombok
 * Spring Data JPA
+* Spring Boot Starter Web
 * NPM
 * NPX
+* Bootstrap
+* React Router Dom
+* Axios
 
 ### Installing
 
@@ -42,7 +46,7 @@ Manager
 <img width="920" alt="image" src="https://github.com/adrianparas/FullStackBankAccount/assets/97486758/6674d73b-b88d-4523-b6c4-693b8b379ce0">
 
 
-Creating a new User
+Creating a new Account
 
 <img width="1079" alt="image" src="https://github.com/adrianparas/FullStackBankAccount/assets/97486758/150ffcc9-e595-455f-ab24-a57a946de3f5">
 
