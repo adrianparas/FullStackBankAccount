@@ -47,29 +47,22 @@ Manager
 
 ### Application Overview
 
-Creating a new Account
-
-<img width="1079" alt="image" src="https://github.com/adrianparas/FullStackBankAccount/assets/97486758/150ffcc9-e595-455f-ab24-a57a946de3f5">
-
-
-Account Details
-
-<img width="436" alt="image" src="https://github.com/adrianparas/FullStackBankAccount/assets/97486758/12dbf113-6cc7-4c7d-8962-dbbbd017d381">
+* Creating a new Account
+* <img width="1079" alt="image" src="https://github.com/adrianparas/FullStackBankAccount/assets/97486758/150ffcc9-e595-455f-ab24-a57a946de3f5">
 
 
-Deposit Form
-
-<img width="1156" alt="image" src="https://github.com/adrianparas/FullStackBankAccount/assets/97486758/4ecbe896-e92d-4427-9f05-0aa57b1aee6c">
-
-
-Withdraw Form
-
-<img width="1090" alt="image" src="https://github.com/adrianparas/FullStackBankAccount/assets/97486758/af6d7c99-14e2-44bb-9190-eb88973a2795">
+* Account Details
+* <img width="436" alt="image" src="https://github.com/adrianparas/FullStackBankAccount/assets/97486758/12dbf113-6cc7-4c7d-8962-dbbbd017d381">
 
 
-Interest Calculator
+* Deposit Form
+* <img width="1156" alt="image" src="https://github.com/adrianparas/FullStackBankAccount/assets/97486758/4ecbe896-e92d-4427-9f05-0aa57b1aee6c">
 
-<img width="1070" alt="image" src="https://github.com/adrianparas/FullStackBankAccount/assets/97486758/082e7d8b-c625-436e-a817-5061d6174195">
+* Withdraw Form
+* <img width="1090" alt="image" src="https://github.com/adrianparas/FullStackBankAccount/assets/97486758/af6d7c99-14e2-44bb-9190-eb88973a2795">
+
+* Interest Calculator
+* <img width="1070" alt="image" src="https://github.com/adrianparas/FullStackBankAccount/assets/97486758/082e7d8b-c625-436e-a817-5061d6174195">
 
 
 ## Authors
